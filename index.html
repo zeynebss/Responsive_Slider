@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Res-Slider</title>
+</head>
+<body>
+    
+<div class="container">
+    <div class="image-box">
+        <img src="img/2.jpg" id="content1" class="active" alt="">
+        <img src="img/3.jpg" id="content2"  alt="">
+        <img src="img/4.jpg" id="content3" alt="">
+        <img src="img/5.jpg" id="content4"  alt="">
+    </div>
+    <div class="dot-container">
+        <button onclick="dot(1)"></button>
+        <button onclick="dot(2)"></button>
+        <button onclick="dot(3)"></button>
+        <button onclick="dot(4)"></button>
+    </div>
+    <button id="prev">&lt;</button>
+    <button id="next">&gt;</button>
+</div>
+
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
